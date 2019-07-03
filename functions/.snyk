@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -22,3 +22,44 @@ patch:
         patched: '2019-05-05T22:55:56.456Z'
     - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > axios:
         patched: '2019-05-05T22:55:56.456Z'
+  SNYK-JS-LODASH-450202:
+    - eslint > table > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - firebase-functions > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-php-plugin > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - eslint > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - firebase-admin > @google-cloud/storage > async > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > @grpc/proto-loader > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2019-07-03T22:56:52.873Z'
